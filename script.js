@@ -38,7 +38,7 @@ function showMovies(data){
         movieKu.innerHTML = `
             <img src="${img_url+poster_path}" alt="${title}">
             <div class="date">
-                <p>Release Date : ${release_date}</p>
+                <p>Release Date : ${release_date}<hr></p>
             </div>
             <div class="movie-info">
                 <h3>${title}</h3>
@@ -78,7 +78,7 @@ form.addEventListener(`submit`, (e) => {
 
     if(searchTerm){
         getMovies(search_url+'&query='+searchTerm)
-    } else{
+    } else {
         getMovies(api_url);
     }
 
