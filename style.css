@@ -36,7 +36,7 @@ header {
 }
 
 header a{
-    color: rgb(222, 4, 4);
+    color: black;
     font-weight: 800;
     font-size: 32px;
     display: flex;
